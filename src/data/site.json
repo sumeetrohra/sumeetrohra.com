@@ -1,0 +1,83 @@
+{
+  "profile": {
+    "name": "Sumeet Rohra",
+    "firstName": "Sumeet",
+    "initials": "SR",
+    "location": "Mumbai, India",
+    "locationIcon": "/icons/icon-flag-in.svg",
+    "bio": [
+      "A software engineer based in Mumbai",
+      "If you need a reliable developer to join your team, I'm ready to dive in."
+    ],
+    "tagline": "Available for hire, let's talk!",
+    "avatar": "/avatar.png"
+  },
+  "seo": {
+    "title": "Sumeet Rohra",
+    "description": "A software engineer based in Mumbai, India."
+  },
+  "links": {
+    "email": "sumeet@example.com",
+    "calcom": "https://cal.com/your-link",
+    "source": "https://github.com/sumeetrohra/sumeetrohra.com",
+    "hotkeys": {
+      "calcom": "b",
+      "email": "e"
+    }
+  },
+  "projects": [
+    {
+      "name": "Analytics",
+      "description": "Open-source product and web analytics.",
+      "status": "development",
+      "icon": "analytics",
+      "link": "https://github.com/sumeetrohra/analytics"
+    },
+    {
+      "name": "Listing Cat",
+      "description": "Marketing database for startups and indie hackers.",
+      "status": "active",
+      "icon": "listingcat",
+      "link": "https://www.listingcat.com"
+    },
+    {
+      "name": "Bluesky Meter",
+      "description": "Realtime analytics for Bluesky social network.",
+      "status": "sold",
+      "icon": "blueskymeter",
+      "link": "https://blueskymeter.com"
+    }
+  ],
+  "social": [
+    {
+      "label": "X/Twitter",
+      "icon": "x",
+      "href": "https://x.com/...",
+      "fill": "fill-primary"
+    },
+    {
+      "label": "Threads",
+      "icon": "threads",
+      "href": "https://threads.com/@...",
+      "fill": "fill-primary"
+    },
+    {
+      "label": "Bluesky",
+      "icon": "bluesky",
+      "href": "https://bsky.app/...",
+      "fill": "fill-[#0085dd]"
+    },
+    {
+      "label": "LinkedIn",
+      "icon": "linkedin",
+      "href": "https://linkedin.com/in/...",
+      "fill": "fill-[#0a66c2]"
+    },
+    {
+      "label": "Substack",
+      "icon": "substack",
+      "href": "https://substack.com/@...",
+      "fill": "fill-[#fe6a09]"
+    }
+  ]
+}
