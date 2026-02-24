@@ -1,0 +1,43 @@
+# Sumeet Rohra - Full Context
+
+Canonical URL: https://sumeetrohra.com
+
+## About
+Sumeet Rohra is a software engineer in Mumbai, India. The portfolio highlights product engineering work, open-source contributions, career history, and educational content.
+
+## Contact
+- Email: sumeetrohra1@gmail.com
+- Resume: https://sumeetrohra.com/assets/resume-sumeet-rohra.pdf
+
+## Featured project
+- rn-stack-navigator
+  - Description: Navigation solution for React Native
+  - Link: https://www.npmjs.com/package/rn-stack-navigator
+
+## YouTube content
+- Channel: https://www.youtube.com/@sumeet-rohra
+- Playlist: Intro to React JS
+  - Playlist URL: https://www.youtube.com/playlist?list=PLgCuqegPvh4dCjKcERwDKKXp2N0AWgk-J
+  - Video count: 28
+- Recent tutorials:
+  - Why Your React Code Feels Messy — SOLID Principles Explained Simply
+  - Handling Errors with Error Boundaries in React | React Tutorial in Hindi
+  - Mastering Generics in TypeScript: Create Reusable Components | Hindi Tutorial
+  - Understanding JavaScript Closures with Real-World Examples in Hindi
+
+## Experience highlights
+- Kognitos — Member of Technical Society (Jan 2023 - Present)
+- Alchemy — Ambassador (May 2023 - Dec 2023)
+- FlexTrade — Lead Frontend Engineer (Mar 2022 - Jan 2023)
+- Proximity Labs — Senior Software Development Engineer (Jan 2020 - Mar 2022)
+- Self Employed — Freelancer (Feb 2019 - Jan 2020)
+- StudyLeague IT Solutions — Python | React Native Trainer (Mar 2018 - Mar 2019)
+- Reliance Jio Infocomm Ltd. — Assistant Manager (Aug 2018 - Feb 2019)
+
+## Verified social links
+- X: https://x.com/rohrasumeet
+- LinkedIn: https://www.linkedin.com/in/rohrasumeet/
+- npm: https://www.npmjs.com/~rohrasumeet
+- YouTube: https://www.youtube.com/@sumeet-rohra
+- Medium: https://medium.com/@rohrasumeet
+- GitHub: https://github.com/sumeetrohra

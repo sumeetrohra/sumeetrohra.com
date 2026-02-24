@@ -6,13 +6,13 @@ export function HomeProjects() {
   const { projects } = site;
 
   return (
-    <section className="@container/projects">
+    <section id="projects" className="@container/projects">
       <SectionHeader
         heading="Projects"
-        text="These are my personal projects, both past and ongoing:"
+        text="A featured open-source package I built:"
       />
 
-      <ul className="grid gap-3 @lg/projects:grid-cols-2">
+      <ul className="grid gap-3 @lg/projects:grid-cols-1">
         {projects.map((project) => (
           <li key={project.name}>
             <HomeProjectsCard

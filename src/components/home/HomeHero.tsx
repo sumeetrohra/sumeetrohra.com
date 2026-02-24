@@ -56,24 +56,6 @@ export function HomeHero() {
           asChild
           className="min-w-[8.25rem] rounded-full h-8 bg-secondary text-secondary-foreground hover:bg-secondary/90"
         >
-          <a
-            href={links.calcom}
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            <Hotkey
-              shortcutKey={links.hotkeys.calcom}
-              variant="secondary"
-            />
-            Book a call
-          </a>
-        </Button>
-
-        <Button
-          asChild
-          variant="secondary"
-          className="rounded-full h-8 border border-border bg-card text-card-foreground hover:bg-accent"
-        >
           <a href={`mailto:${links.email}`}>
             <Hotkey
               shortcutKey={links.hotkeys.email}

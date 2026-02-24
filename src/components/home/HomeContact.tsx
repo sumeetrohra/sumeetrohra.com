@@ -5,7 +5,7 @@ export function HomeContact() {
   const { links } = site;
 
   return (
-    <section>
+    <section id="contact">
       <SectionHeader heading="Get in touch" />
 
       <p className="mb-1.5">
@@ -17,20 +17,6 @@ export function HomeContact() {
         >
           <span className="relative inline-block after:absolute after:inset-x-0 after:-bottom-px after:h-px after:bg-amber-500 after:transition-all after:duration-300 group-hover:after:h-0.5">
             {links.email}
-          </span>
-        </a>
-      </p>
-
-      <p>
-        Or book a call on{" "}
-        <a
-          className="group inline-flex items-center gap-1 font-medium text-foreground"
-          href={links.calcom}
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <span className="relative inline-block after:absolute after:inset-x-0 after:-bottom-px after:h-px after:bg-amber-500 after:transition-all after:duration-300 group-hover:after:h-0.5">
-            Cal.com
           </span>
         </a>
       </p>

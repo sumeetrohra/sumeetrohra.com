@@ -6,7 +6,7 @@ export function HomeSocials() {
   const { social } = site;
 
   return (
-    <section>
+    <section id="social">
       <SectionHeader
         heading="Find me on"
         text="You can find me on the following social platforms:"
@@ -25,7 +25,11 @@ export function HomeSocials() {
               <img
                 src={iconMap[link.icon] || iconMap.x}
                 alt=""
-                className={cn("shrink-0 size-4 invert", link.fill)}
+                className={cn(
+                  "shrink-0 size-4",
+                  link.invert === false ? null : "invert",
+                  link.fill
+                )}
               />
               {link.label}
             </a>

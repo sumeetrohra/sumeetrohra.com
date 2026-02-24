@@ -38,7 +38,7 @@ export function HomeProjectsCard({
       className={cn(
         "block p-3 bg-card border border-border rounded-lg",
         link &&
-          "group relative ring-[3px] ring-transparent outline-none cursor-pointer transition-all duration-300 hover:border-muted-foreground/25 hover:ring-accent focus-visible:border-muted-foreground/25 focus-visible:ring-accent"
+        "group relative ring-[3px] ring-transparent outline-none cursor-pointer transition-all duration-300 hover:border-muted-foreground/25 hover:ring-accent focus-visible:border-muted-foreground/25 focus-visible:ring-accent"
       )}
       href={link}
       target={link ? "_blank" : undefined}
@@ -54,7 +54,7 @@ export function HomeProjectsCard({
           />
         </div>
 
-        <h3 className="font-medium text-sm flex-1">{name}</h3>
+        <h3 className="font-medium text-sm">{name}</h3>
         <Badge
           className={cn(
             "rounded-full font-medium text-xs capitalize",

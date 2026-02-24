@@ -1,0 +1,84 @@
+{
+  "version": "1.0",
+  "generatedAt": "2026-02-24",
+  "site": {
+    "name": "Sumeet Rohra",
+    "url": "https://sumeetrohra.com",
+    "description": "Software engineer based in Mumbai, India. React, JavaScript, TypeScript, open-source, and technical tutorials."
+  },
+  "person": {
+    "name": "Sumeet Rohra",
+    "firstName": "Sumeet",
+    "jobTitle": "Software Engineer",
+    "location": "Mumbai, India",
+    "email": "sumeetrohra1@gmail.com",
+    "resumeUrl": "https://sumeetrohra.com/assets/resume-sumeet-rohra.pdf"
+  },
+  "social": [
+    {
+      "label": "LinkedIn",
+      "url": "https://www.linkedin.com/in/rohrasumeet/"
+    },
+    {
+      "label": "npm",
+      "url": "https://www.npmjs.com/~rohrasumeet"
+    },
+    {
+      "label": "YouTube",
+      "url": "https://www.youtube.com/@sumeet-rohra"
+    },
+    {
+      "label": "GitHub",
+      "url": "https://github.com/sumeetrohra"
+    },
+    {
+      "label": "X",
+      "url": "https://x.com/rohrasumeet"
+    }
+  ],
+  "projects": [
+    {
+      "name": "rn-stack-navigator",
+      "description": "Navigation solution for React Native",
+      "status": "active",
+      "url": "https://www.npmjs.com/package/rn-stack-navigator"
+    }
+  ],
+  "experience": [
+    {
+      "company": "Kognitos",
+      "role": "Member of Technical Society",
+      "period": "Jan 2023 - Present",
+      "location": "Remote",
+      "url": "https://www.kognitos.com"
+    },
+    {
+      "company": "Alchemy",
+      "role": "Ambassador",
+      "period": "May 2023 - Dec 2023",
+      "url": "https://www.alchemy.com"
+    },
+    {
+      "company": "FlexTrade",
+      "role": "Lead Frontend Engineer",
+      "period": "Mar 2022 - Jan 2023",
+      "location": "Remote",
+      "url": "https://flextrade.com"
+    },
+    {
+      "company": "Proximity Labs",
+      "role": "Senior Software Development Engineer",
+      "period": "Jan 2020 - Mar 2022",
+      "location": "Remote",
+      "url": "https://www.proximity.tech"
+    }
+  ],
+  "media": {
+    "youtubeChannel": "https://www.youtube.com/@sumeet-rohra",
+    "featuredPlaylist": {
+      "title": "Intro to React JS",
+      "videoCount": 28,
+      "url": "https://www.youtube.com/playlist?list=PLgCuqegPvh4dCjKcERwDKKXp2N0AWgk-J"
+    }
+  }
+}

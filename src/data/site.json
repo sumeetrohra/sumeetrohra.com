@@ -2,6 +2,7 @@
   "profile": {
     "name": "Sumeet Rohra",
     "firstName": "Sumeet",
+    "jobTitle": "Software Engineer",
     "initials": "SR",
     "location": "Mumbai, India",
     "locationIcon": "/icons/icon-flag-in.svg",
@@ -10,16 +11,38 @@
       "If you need a reliable developer to join your team, I'm ready to dive in."
     ],
     "tagline": "Available for hire, let's talk!",
-    "avatar": "/avatar.png"
+    "avatar": "/avatar.png",
+    "sameAs": [
+      "https://x.com/rohrasumeet",
+      "https://www.linkedin.com/in/rohrasumeet/",
+      "https://www.npmjs.com/~rohrasumeet",
+      "https://www.youtube.com/@sumeet-rohra",
+      "https://medium.com/@rohrasumeet",
+      "https://github.com/sumeetrohra"
+    ]
   },
   "seo": {
     "title": "Sumeet Rohra",
-    "description": "A software engineer based in Mumbai, India."
+    "description": "Software engineer based in Mumbai, India. React, JavaScript, TypeScript, open-source, and technical tutorials.",
+    "url": "https://sumeetrohra.com",
+    "ogImage": "/og/og-default.png",
+    "keywords": [
+      "Sumeet Rohra",
+      "Software Engineer",
+      "React",
+      "JavaScript",
+      "TypeScript",
+      "Portfolio",
+      "Mumbai",
+      "Open Source",
+      "YouTube Tutorials"
+    ],
+    "twitterHandle": "@rohrasumeet"
   },
   "links": {
-    "email": "sumeet@example.com",
-    "calcom": "https://cal.com/your-link",
+    "email": "sumeetrohra1@gmail.com",
     "source": "https://github.com/sumeetrohra/sumeetrohra.com",
+    "resumeUrl": "/assets/resume-sumeet-rohra.pdf",
     "hotkeys": {
       "calcom": "b",
       "email": "e"
@@ -27,57 +50,148 @@
   },
   "projects": [
     {
-      "name": "Analytics",
-      "description": "Open-source product and web analytics.",
-      "status": "development",
-      "icon": "analytics",
-      "link": "https://github.com/sumeetrohra/analytics"
-    },
-    {
-      "name": "Listing Cat",
-      "description": "Marketing database for startups and indie hackers.",
+      "name": "rn-stack-navigator",
+      "description": "Navigation solution for React Native",
       "status": "active",
-      "icon": "listingcat",
-      "link": "https://www.listingcat.com"
-    },
-    {
-      "name": "Bluesky Meter",
-      "description": "Realtime analytics for Bluesky social network.",
-      "status": "sold",
-      "icon": "blueskymeter",
-      "link": "https://blueskymeter.com"
+      "icon": "npm",
+      "link": "https://www.npmjs.com/package/rn-stack-navigator"
     }
   ],
+  "experience": [
+    {
+      "company": "Kognitos",
+      "role": "Member of Technical Society",
+      "period": "Jan 2023 - Present",
+      "location": "Remote",
+      "icon": "kognitos",
+      "link": "https://www.kognitos.com"
+    },
+    {
+      "company": "Alchemy",
+      "role": "Ambassador",
+      "period": "May 2023 - Dec 2023",
+      "icon": "alchemy",
+      "link": "https://www.alchemy.com"
+    },
+    {
+      "company": "FlexTrade",
+      "role": "Lead Frontend Engineer",
+      "period": "Mar 2022 - Jan 2023",
+      "location": "Remote",
+      "icon": "flextrade",
+      "link": "https://flextrade.com"
+    },
+    {
+      "company": "Proximity Labs",
+      "role": "Senior Software Development Engineer",
+      "period": "Jan 2020 - Mar 2022",
+      "location": "Remote",
+      "icon": "proximity",
+      "link": "https://www.proximity.tech"
+    },
+    {
+      "company": "Self Employed",
+      "role": "Freelancer",
+      "period": "Feb 2019 - Jan 2020",
+      "icon": "company-generic"
+    },
+    {
+      "company": "StudyLeague IT Solutions",
+      "role": "Python | React Native Trainer",
+      "period": "Mar 2018 - Mar 2019",
+      "icon": "studyleague",
+      "link": "https://www.studyleagueit.com"
+    },
+    {
+      "company": "Reliance Jio Infocomm Ltd.",
+      "role": "Assistant Manager",
+      "period": "Aug 2018 - Feb 2019",
+      "icon": "jio",
+      "link": "https://www.jio.com"
+    }
+  ],
+  "youtube": {
+    "channelUrl": "https://www.youtube.com/@sumeet-rohra",
+    "playlist": {
+      "title": "Intro to React JS",
+      "description": "Complete introduction to React JS, from fundamentals to practical concepts.",
+      "videoCount": 28,
+      "url": "https://www.youtube.com/playlist?list=PLgCuqegPvh4dCjKcERwDKKXp2N0AWgk-J",
+      "thumbnail": "/logos/youtube/thumb-playlist-intro-react.svg",
+      "tag": "Course"
+    },
+    "videos": [
+      {
+        "title": "Why Your React Code Feels Messy — SOLID Principles Explained Simply",
+        "url": "https://www.youtube.com/watch?v=NR4f70Q3E1I",
+        "thumbnail": "https://i.ytimg.com/vi/NR4f70Q3E1I/hqdefault.jpg",
+        "duration": "18:51",
+        "publishedAt": "26 Oct 2025",
+        "topic": "React"
+      },
+      {
+        "title": "Handling Errors with Error Boundaries in React | React Tutorial in Hindi",
+        "url": "https://www.youtube.com/watch?v=hzurtdj2ZPg",
+        "thumbnail": "https://i.ytimg.com/vi/hzurtdj2ZPg/hqdefault.jpg",
+        "duration": "10:38",
+        "publishedAt": "12 Jul 2024",
+        "topic": "React"
+      },
+      {
+        "title": "Mastering Generics in TypeScript: Create Reusable Components | Hindi Tutorial",
+        "url": "https://www.youtube.com/watch?v=9l-bqRmDqYA",
+        "thumbnail": "https://i.ytimg.com/vi/9l-bqRmDqYA/hqdefault.jpg",
+        "duration": "16:49",
+        "publishedAt": "11 Jul 2024",
+        "topic": "JavaScript"
+      },
+      {
+        "title": "Understanding JavaScript Closures with Real-World Examples in Hindi",
+        "url": "https://www.youtube.com/watch?v=SGmenCx7j_8",
+        "thumbnail": "https://i.ytimg.com/vi/SGmenCx7j_8/hqdefault.jpg",
+        "duration": "12:42",
+        "publishedAt": "10 Jul 2024",
+        "topic": "JavaScript"
+      }
+    ]
+  },
   "social": [
-    {
-      "label": "X/Twitter",
-      "icon": "x",
-      "href": "https://x.com/...",
-      "fill": "fill-primary"
-    },
-    {
-      "label": "Threads",
-      "icon": "threads",
-      "href": "https://threads.com/@...",
-      "fill": "fill-primary"
-    },
-    {
-      "label": "Bluesky",
-      "icon": "bluesky",
-      "href": "https://bsky.app/...",
-      "fill": "fill-[#0085dd]"
-    },
     {
       "label": "LinkedIn",
       "icon": "linkedin",
-      "href": "https://linkedin.com/in/...",
-      "fill": "fill-[#0a66c2]"
+      "href": "https://www.linkedin.com/in/rohrasumeet/",
+      "fill": "fill-primary"
     },
     {
-      "label": "Substack",
-      "icon": "substack",
-      "href": "https://substack.com/@...",
-      "fill": "fill-[#fe6a09]"
+      "label": "npm",
+      "icon": "npm-social",
+      "href": "https://www.npmjs.com/~rohrasumeet",
+      "fill": "fill-primary",
+      "invert": false
+    },
+    {
+      "label": "YouTube",
+      "icon": "youtube",
+      "href": "https://www.youtube.com/@sumeet-rohra",
+      "fill": "fill-primary"
+    },
+    {
+      "label": "GitHub",
+      "icon": "github",
+      "href": "https://github.com/sumeetrohra",
+      "fill": "fill-primary"
+    },
+    {
+      "label": "X",
+      "icon": "x",
+      "href": "https://x.com/rohrasumeet",
+      "fill": "fill-primary"
+    },
+    {
+      "label": "Resume",
+      "icon": "resume",
+      "href": "/assets/resume-sumeet-rohra.pdf",
+      "fill": "fill-primary"
     }
   ]
 }

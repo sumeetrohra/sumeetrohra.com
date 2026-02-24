@@ -1,0 +1,25 @@
+# Sumeet Rohra - Portfolio
+
+Canonical: https://sumeetrohra.com
+Profile: https://sumeetrohra.com
+Machine profile: https://sumeetrohra.com/site-profile.json
+Extended context: https://sumeetrohra.com/llms-full.txt
+
+## Summary
+Software engineer based in Mumbai, India. Focus areas include React, JavaScript, TypeScript, open-source work, and technical tutorials.
+
+## Key sections
+- Projects: https://sumeetrohra.com/#projects
+- YouTube tutorials: https://sumeetrohra.com/#youtube
+- Experience: https://sumeetrohra.com/#experience
+- Social links: https://sumeetrohra.com/#social
+- Contact: https://sumeetrohra.com/#contact
+- Resume PDF: https://sumeetrohra.com/assets/resume-sumeet-rohra.pdf
+
+## Authoritative links
+- X: https://x.com/rohrasumeet
+- LinkedIn: https://www.linkedin.com/in/rohrasumeet/
+- GitHub: https://github.com/sumeetrohra
+- YouTube: https://www.youtube.com/@sumeet-rohra
+- npm: https://www.npmjs.com/~rohrasumeet
+- Medium: https://medium.com/@rohrasumeet
