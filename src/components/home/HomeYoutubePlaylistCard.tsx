@@ -25,10 +25,10 @@ export function HomeYoutubePlaylistCard({
   return (
     <article
       className={cn(
-        "group relative block p-3 bg-card border border-border rounded-lg",
-        "ring-[3px] ring-transparent outline-none cursor-pointer transition-all duration-300",
-        "hover:border-muted-foreground/25 hover:ring-accent",
-        "focus-visible:border-muted-foreground/25 focus-visible:ring-accent"
+        "group relative block rounded-lg border border-border/80 bg-card p-3.5 sm:p-4",
+        "cursor-pointer outline-none ring-2 ring-transparent transition-[border-color,box-shadow] duration-200",
+        "hover:border-border hover:ring-ring/25",
+        "focus-visible:border-border focus-visible:ring-ring/45"
       )}
     >
       <a
@@ -39,7 +39,7 @@ export function HomeYoutubePlaylistCard({
         className="absolute inset-0 rounded-lg z-10"
       />
 
-      <div className="flex gap-3">
+      <div className="flex gap-3.5 sm:gap-4">
         <div className="shrink-0 w-30 h-17 rounded-md border border-border bg-secondary overflow-hidden">
           {/* eslint-disable-next-line @next/next/no-img-element */}
           <img
@@ -50,22 +50,22 @@ export function HomeYoutubePlaylistCard({
         </div>
 
         <div className="min-w-0 flex-1">
-          <div className="flex items-start gap-2 mb-1.5">
-            <h3 className="font-medium text-sm">{title}</h3>
+          <div className="mb-2 flex items-start gap-2">
+            <h3 className="text-sm font-medium leading-5">{title}</h3>
             <Badge className="rounded-full font-medium text-xs bg-indigo-500/15 text-indigo-400 border-0">
               {tag}
             </Badge>
           </div>
 
-          <p className="text-xs text-muted-foreground mb-2">{description}</p>
+          <p className="mb-2.5 text-xs leading-5 text-muted-foreground">{description}</p>
 
-          <div className="flex items-center gap-2 text-xs text-muted-foreground">
+          <div className="flex items-center gap-2 text-xs leading-5 text-muted-foreground">
             <span>{videoCount} videos</span>
             <span className="text-muted-foreground/60">|</span>
             <span>By Sumeet Rohra</span>
           </div>
 
-          <div className="mt-2.5 flex flex-wrap items-center gap-2">
+          <div className="mt-3 flex flex-wrap items-center gap-2">
             <span className="inline-flex items-center px-2 h-5 rounded-full text-xs font-medium bg-secondary text-secondary-foreground relative z-20">
               Watch playlist
             </span>
@@ -85,7 +85,7 @@ export function HomeYoutubePlaylistCard({
       <img
         src="/icons/huge/icon-link-square-02.svg"
         alt=""
-        className="absolute top-3 right-3 size-3.5 invert opacity-0 transition-opacity transform-gpu duration-300 group-hover:opacity-100 group-focus-within:opacity-100 z-20"
+        className="absolute top-3.5 right-3.5 size-3.5 invert opacity-0 transition-opacity transform-gpu duration-200 group-hover:opacity-100 group-focus-within:opacity-100 z-20"
       />
     </article>
   );

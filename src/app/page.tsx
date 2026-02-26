@@ -7,7 +7,7 @@ import { HomeYoutube } from "@/components/home/HomeYoutube";
 
 export default function Home() {
   return (
-    <div className="mx-auto pt-6 pb-12 max-w-[40rem] space-y-12 sm:py-10">
+    <div className="mx-auto max-w-[40rem] pt-8 pb-16 space-y-14 sm:pt-10 sm:pb-20 sm:space-y-16">
       <HomeHero />
       <HomeYoutube />
       <HomeExperience />

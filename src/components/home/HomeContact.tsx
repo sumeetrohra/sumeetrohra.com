@@ -8,7 +8,7 @@ export function HomeContact() {
     <section id="contact">
       <SectionHeader heading="Get in touch" />
 
-      <p className="mb-1.5">
+      <p className="text-sm leading-6 text-muted-foreground">
         You can reach me{" "}
         <span className="hidden min-[480px]:inline">anytime</span> at{" "}
         <a

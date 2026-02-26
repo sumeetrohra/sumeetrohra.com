@@ -11,7 +11,7 @@ export function Footer({ className }: FooterProps) {
   return (
     <footer
       className={cn(
-        "sticky top-[100vh] mx-auto flex flex-col items-center gap-3 border-t border-border pt-6 pb-10 sm:flex-row sm:justify-between sm:gap-8 sm:border-none sm:pt-8 sm:pb-6",
+        "sticky top-[100vh] mx-auto mt-3 flex flex-col items-center gap-3 border-t border-border/80 pt-8 pb-12 sm:mt-6 sm:flex-row sm:justify-between sm:gap-8 sm:border-none sm:pt-10 sm:pb-8",
         className
       )}
     >

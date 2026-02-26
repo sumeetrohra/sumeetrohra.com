@@ -20,16 +20,16 @@ export function HomeYoutubeVideoCard({
   return (
     <a
       className={cn(
-        "group relative block p-3 bg-card border border-border rounded-lg",
-        "ring-[3px] ring-transparent outline-none cursor-pointer transition-all duration-300",
-        "hover:border-muted-foreground/25 hover:ring-accent",
-        "focus-visible:border-muted-foreground/25 focus-visible:ring-accent"
+        "group relative block rounded-lg border border-border/80 bg-card p-3.5 sm:p-4",
+        "cursor-pointer outline-none ring-2 ring-transparent transition-[border-color,box-shadow] duration-200",
+        "hover:border-border hover:ring-ring/25",
+        "focus-visible:border-border focus-visible:ring-ring/45"
       )}
       href={url}
       target="_blank"
       rel="noopener noreferrer"
     >
-      <div className="relative mb-2.5 rounded-md border border-border bg-secondary overflow-hidden">
+      <div className="relative mb-3 rounded-md border border-border bg-secondary overflow-hidden">
         {/* eslint-disable-next-line @next/next/no-img-element */}
         <img
           src={thumbnail || fallbackThumbnail}
@@ -41,14 +41,14 @@ export function HomeYoutubeVideoCard({
         </span>
       </div>
 
-      <h3 className="text-sm font-medium leading-5 max-h-10 overflow-hidden">{title}</h3>
-      <p className="mt-1 text-xs text-muted-foreground">{publishedAt}</p>
+      <h3 className="max-h-10 overflow-hidden text-sm font-medium leading-5">{title}</h3>
+      <p className="mt-1.5 text-xs leading-5 text-muted-foreground">{publishedAt}</p>
 
       {/* eslint-disable-next-line @next/next/no-img-element */}
       <img
         src="/icons/huge/icon-link-square-02.svg"
         alt=""
-        className="absolute top-3 right-3 size-3.5 invert opacity-0 transition-opacity transform-gpu duration-300 group-hover:opacity-100 group-focus-within:opacity-100"
+        className="absolute top-3.5 right-3.5 size-3.5 invert opacity-0 transition-opacity transform-gpu duration-200 group-hover:opacity-100 group-focus-within:opacity-100"
       />
     </a>
   );

@@ -12,7 +12,7 @@ export function HomeExperience() {
         text="A snapshot of my recent roles:"
       />
 
-      <ul className="grid gap-3">
+      <ul className="grid gap-3.5 sm:gap-4">
         {experience.map((item) => (
           <li key={`${item.company}-${item.role}-${item.period}`}>
             <HomeExperienceCard

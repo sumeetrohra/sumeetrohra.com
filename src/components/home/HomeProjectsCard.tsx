@@ -36,15 +36,15 @@ export function HomeProjectsCard({
   return (
     <Component
       className={cn(
-        "block p-3 bg-card border border-border rounded-lg",
+        "block rounded-lg border border-border/80 bg-card p-3.5 sm:p-4",
         link &&
-        "group relative ring-[3px] ring-transparent outline-none cursor-pointer transition-all duration-300 hover:border-muted-foreground/25 hover:ring-accent focus-visible:border-muted-foreground/25 focus-visible:ring-accent"
+        "group relative cursor-pointer outline-none ring-2 ring-transparent transition-[border-color,box-shadow] duration-200 hover:border-border hover:ring-ring/25 focus-visible:border-border focus-visible:ring-ring/45"
       )}
       href={link}
       target={link ? "_blank" : undefined}
       rel={link ? "noopener noreferrer" : undefined}
     >
-      <div className="flex items-center gap-2 mb-2">
+      <div className="mb-2.5 flex items-center gap-2.5">
         <div className="shrink-0 grid place-content-center size-6 bg-secondary border border-border rounded-sm">
           {/* eslint-disable-next-line @next/next/no-img-element */}
           <img
@@ -54,7 +54,7 @@ export function HomeProjectsCard({
           />
         </div>
 
-        <h3 className="font-medium text-sm">{name}</h3>
+        <h3 className="text-sm font-medium leading-5">{name}</h3>
         <Badge
           className={cn(
             "rounded-full font-medium text-xs capitalize",
@@ -65,14 +65,14 @@ export function HomeProjectsCard({
         </Badge>
       </div>
 
-      <p className="text-sm text-muted-foreground">{description}</p>
+      <p className="text-sm leading-6 text-muted-foreground">{description}</p>
 
       {link && (
         /* eslint-disable-next-line @next/next/no-img-element */
         <img
           src="/icons/huge/icon-link-square-02.svg"
           alt=""
-          className="absolute top-3 right-3 size-3.5 invert opacity-0 transition-opacity transform-gpu duration-300 group-hover:opacity-100 group-focus-within:opacity-100"
+          className="absolute top-3.5 right-3.5 size-3.5 invert opacity-0 transition-opacity transform-gpu duration-200 group-hover:opacity-100 group-focus-within:opacity-100"
         />
       )}
     </Component>

@@ -11,7 +11,7 @@ export function HomeHero() {
   return (
     <section>
       <Image
-        className="mb-4 size-11 rounded-full"
+        className="mb-5 size-11 rounded-full"
         src={profile.avatar}
         alt={profile.name}
         width={44}
@@ -20,7 +20,7 @@ export function HomeHero() {
         draggable={false}
       />
 
-      <h1 className="mb-4 font-sans font-semibold text-[1.375rem] leading-7 tracking-[0.02em]">
+      <h1 className="mb-5 font-sans font-semibold text-[1.375rem] leading-8 tracking-[0.02em]">
         Hey, I&apos;m{" "}
         <span className="border-b-[0.09375rem] border-current text-amber-500">
           {profile.name}
@@ -28,7 +28,7 @@ export function HomeHero() {
         !
       </h1>
 
-      <div className="mb-5 text-sm leading-[1.75] space-y-3 sm:space-y-0">
+      <div className="mb-6 max-w-[58ch] space-y-3 text-sm leading-7 sm:space-y-0">
         <p>
           <span className="sm:inline-block sm:mb-1.75">
             {profile.bio[0]}
@@ -66,7 +66,7 @@ export function HomeHero() {
         </Button>
       </div>
 
-      <p className="relative mt-4 pl-5 text-xs text-muted-foreground">
+      <p className="relative mt-5 pl-5 text-xs text-muted-foreground">
         <span
           className="absolute left-0 top-1/2 size-3.5 -translate-y-1/2 rounded-full bg-green-500 border-4 border-green-500/20"
           aria-hidden

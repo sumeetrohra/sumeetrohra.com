@@ -12,7 +12,7 @@ export function HomeProjects() {
         text="A featured open-source package I built:"
       />
 
-      <ul className="grid gap-3 @lg/projects:grid-cols-1">
+      <ul className="grid gap-3.5 sm:gap-4 @lg/projects:grid-cols-1">
         {projects.map((project) => (
           <li key={project.name}>
             <HomeProjectsCard

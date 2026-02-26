@@ -1,4 +1,3 @@
-import { Badge } from "@/components/ui/badge";
 import { SectionHeader } from "@/components/layout/SectionHeader";
 import { site } from "@/lib/site";
 import { HomeYoutubePlaylistCard } from "./HomeYoutubePlaylistCard";
@@ -14,7 +13,7 @@ export function HomeYoutube() {
         text="JS and React tutorials"
       />
 
-      <div className="space-y-3">
+      <div className="space-y-4 sm:space-y-5">
         <HomeYoutubePlaylistCard
           title={youtube.playlist.title}
           description={youtube.playlist.description}
@@ -25,7 +24,7 @@ export function HomeYoutube() {
           tag={youtube.playlist.tag}
         />
 
-        <ul className="grid gap-3 @lg/youtube:grid-cols-2">
+        <ul className="grid gap-4 @lg/youtube:grid-cols-2">
           {youtube.videos.map((video) => (
             <li key={video.url}>
               <HomeYoutubeVideoCard

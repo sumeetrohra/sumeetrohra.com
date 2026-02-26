@@ -12,11 +12,11 @@ export function HomeSocials() {
         text="You can find me on the following social platforms:"
       />
 
-      <ul className="flex flex-wrap items-center gap-2.5">
+      <ul className="flex flex-wrap items-center gap-2.5 sm:gap-3">
         {social.map((link) => (
           <li key={link.label} className="group">
             <a
-              className="inline-flex items-center gap-2 px-2.5 h-6 bg-secondary rounded-full outline-none font-medium text-xs text-secondary-foreground transition-all hover:bg-accent focus:ring-[3px] focus:ring-ring"
+              className="inline-flex h-6.5 items-center gap-2 rounded-full bg-secondary px-3 text-xs font-medium text-secondary-foreground outline-none transition-all hover:bg-accent focus:ring-2 focus:ring-ring/45"
               href={link.href}
               target="_blank"
               rel="noopener noreferrer"
