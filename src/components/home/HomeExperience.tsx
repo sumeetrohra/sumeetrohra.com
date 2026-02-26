@@ -9,7 +9,7 @@ export function HomeExperience() {
     <section id="experience" className="@container/experience">
       <SectionHeader
         heading="Experience"
-        text="A snapshot of my recent roles and responsibilities:"
+        text="A snapshot of my recent roles:"
       />
 
       <ul className="grid gap-3">

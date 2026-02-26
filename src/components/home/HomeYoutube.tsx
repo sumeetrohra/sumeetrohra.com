@@ -11,7 +11,7 @@ export function HomeYoutube() {
     <section id="youtube" className="@container/youtube">
       <SectionHeader
         heading="YouTube"
-        text="JS and React tutorials in Hindi"
+        text="JS and React tutorials"
       />
 
       <div className="space-y-3">
@@ -24,15 +24,6 @@ export function HomeYoutube() {
           thumbnail={youtube.playlist.thumbnail}
           tag={youtube.playlist.tag}
         />
-
-        <div className="flex items-center gap-2">
-          <Badge className="rounded-full font-medium text-xs bg-orange-500/15 text-orange-400 border-0">
-            JavaScript
-          </Badge>
-          <Badge className="rounded-full font-medium text-xs bg-indigo-500/15 text-indigo-400 border-0">
-            React
-          </Badge>
-        </div>
 
         <ul className="grid gap-3 @lg/youtube:grid-cols-2">
           {youtube.videos.map((video) => (

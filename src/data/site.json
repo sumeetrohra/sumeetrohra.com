@@ -8,9 +8,9 @@
     "locationIcon": "/icons/icon-flag-in.svg",
     "bio": [
       "A software engineer based in Mumbai",
-      "If you need a reliable developer to join your team, I'm ready to dive in."
+      "I turn complex product requirements into scalable, maintainable systems with clear engineering tradeoffs and long-term ownership."
     ],
-    "tagline": "Available for hire, let's talk!",
+    "tagline": "Open to high-ownership engineering roles, let's talk!",
     "avatar": "/avatar.png",
     "sameAs": [
       "https://x.com/rohrasumeet",
@@ -60,7 +60,7 @@
   "experience": [
     {
       "company": "Kognitos",
-      "role": "Member of Technical Society",
+      "role": "Member of Technical Staff",
       "period": "Jan 2023 - Present",
       "location": "Remote",
       "icon": "kognitos",
