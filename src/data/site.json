@@ -55,6 +55,13 @@
       "status": "active",
       "icon": "npm",
       "link": "https://www.npmjs.com/package/rn-stack-navigator"
+    },
+    {
+      "name": "create-vibe-react",
+      "description": "CLI to scaffold production-ready React 19 + TypeScript + Vite projects",
+      "status": "active",
+      "icon": "npm",
+      "link": "https://www.npmjs.com/package/create-vibe-react"
     }
   ],
   "experience": [
