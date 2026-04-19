@@ -16,6 +16,10 @@ Software engineer based in Mumbai, India. Focus areas include React, JavaScript,
 - Contact: https://sumeetrohra.com/#contact
 - Resume PDF: https://sumeetrohra.com/assets/resume-sumeet-rohra.pdf
 
+## Featured projects
+- rn-stack-navigator: https://www.npmjs.com/package/rn-stack-navigator
+- create-vibe-react: https://www.npmjs.com/package/create-vibe-react
+
 ## Authoritative links
 - X: https://x.com/rohrasumeet
 - LinkedIn: https://www.linkedin.com/in/rohrasumeet/

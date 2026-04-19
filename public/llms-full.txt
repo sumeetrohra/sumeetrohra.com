@@ -9,10 +9,13 @@ Sumeet Rohra is a software engineer in Mumbai, India. The portfolio highlights p
 - Email: sumeetrohra1@gmail.com
 - Resume: https://sumeetrohra.com/assets/resume-sumeet-rohra.pdf
 
-## Featured project
+## Featured projects
 - rn-stack-navigator
   - Description: Navigation solution for React Native
   - Link: https://www.npmjs.com/package/rn-stack-navigator
+- create-vibe-react
+  - Description: CLI to scaffold production-ready React 19 + TypeScript + Vite projects
+  - Link: https://www.npmjs.com/package/create-vibe-react
 
 ## YouTube content
 - Channel: https://www.youtube.com/@sumeet-rohra

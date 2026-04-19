@@ -4,7 +4,7 @@
   "site": {
     "name": "Sumeet Rohra",
     "url": "https://sumeetrohra.com",
-    "description": "Software engineer based in Mumbai, India. React, JavaScript, TypeScript, open-source, and technical tutorials."
+    "description": "Software engineer based in Mumbai, India. Building open-source tools like rn-stack-navigator and create-vibe-react, plus React, JavaScript, TypeScript, and technical tutorials."
   },
   "person": {
     "name": "Sumeet Rohra",
@@ -42,6 +42,12 @@
       "description": "Navigation solution for React Native",
       "status": "active",
       "url": "https://www.npmjs.com/package/rn-stack-navigator"
+    },
+    {
+      "name": "create-vibe-react",
+      "description": "CLI to scaffold production-ready React 19 + TypeScript + Vite projects",
+      "status": "active",
+      "url": "https://www.npmjs.com/package/create-vibe-react"
     }
   ],
   "experience": [
