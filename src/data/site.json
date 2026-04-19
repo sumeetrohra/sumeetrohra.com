@@ -23,7 +23,7 @@
   },
   "seo": {
     "title": "Sumeet Rohra",
-    "description": "Software engineer based in Mumbai, India. React, JavaScript, TypeScript, open-source, and technical tutorials.",
+    "description": "Software engineer based in Mumbai, India. Building open-source tools like rn-stack-navigator and create-vibe-react, plus React, JavaScript, TypeScript, and technical tutorials.",
     "url": "https://sumeetrohra.com",
     "ogImage": "/og/og-default.png",
     "keywords": [
@@ -32,9 +32,12 @@
       "React",
       "JavaScript",
       "TypeScript",
+      "create-vibe-react",
+      "rn-stack-navigator",
       "Portfolio",
       "Mumbai",
       "Open Source",
+      "npm",
       "YouTube Tutorials"
     ],
     "twitterHandle": "@rohrasumeet"
