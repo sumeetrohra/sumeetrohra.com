@@ -164,6 +164,20 @@
       }
     ]
   },
+  "techStack": {
+    "Languages": ["JavaScript", "Python", "TypeScript"],
+    "Frontend Frameworks": ["React", "Redux", "Bootstrap"],
+    "Backend Frameworks": ["Express", "Flask", "Graphql-yoga"],
+    "Styling": ["Tailwind CSS"],
+    "Databases": ["MySql", "MongoDB", "DynamoDB", "PostgreSQL"],
+    "Cloud Services": [
+      "AWS (AWS Amplify, Cognito, S3,IVS, Elemental Media Services, Lambda, Elasticache, API gateway)",
+      "Azure (Cognitive services)",
+      "Firebase (Realtime Database, Authentication, Storage, functions)"
+    ],
+    "Mobile App Development": ["React Native", "Expo", "Ionic", "Capacitor"],
+    "Tooling": ["Git", "Github", "Netlify", "Vercel", "TDD"]
+  },
   "social": [
     {
       "label": "LinkedIn",

@@ -41,6 +41,8 @@ export interface SiteConfig {
     }>;
   };
   social: typeof siteData.social;
+  techStack: typeof siteData.techStack;
+
 }
 
 export const site: SiteConfig = siteData as SiteConfig;

@@ -3,6 +3,7 @@ import { HomeExperience } from "@/components/home/HomeExperience";
 import { HomeHero } from "@/components/home/HomeHero";
 import { HomeProjects } from "@/components/home/HomeProjects";
 import { HomeSocials } from "@/components/home/HomeSocials";
+import { HomeTechStack } from "@/components/home/HomeTechStack";
 import { HomeYoutube } from "@/components/home/HomeYoutube";
 
 export default function Home() {
@@ -12,6 +13,7 @@ export default function Home() {
       <HomeYoutube />
       <HomeExperience />
       <HomeProjects />
+      <HomeTechStack />
       <HomeSocials />
       <HomeContact />
     </div>
