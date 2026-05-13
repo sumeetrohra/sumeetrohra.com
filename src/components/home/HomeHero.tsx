@@ -11,12 +11,12 @@ export function HomeHero() {
   return (
     <section>
       <Image
-        className="mb-5 size-11 rounded-full"
+        className="mb-6 size-32 rounded-full object-cover shadow-sm ring-1 ring-border"
         src={profile.avatar}
         alt={profile.name}
-        width={44}
-        height={44}
-        loading="eager"
+        width={128}
+        height={128}
+        priority
         draggable={false}
       />
 
@@ -31,9 +31,10 @@ export function HomeHero() {
       <div className="mb-6 max-w-[58ch] space-y-3 text-sm leading-7 sm:space-y-0">
         <p>
           <span className="sm:inline-block sm:mb-1.75">
-            {profile.bio[0]}
-            ,{" "}
-            <span className="sm:hidden">{profile.location.split(", ")[1]}.</span>
+            {profile.bio[0]},{" "}
+            <span className="sm:hidden">
+              {profile.location.split(", ")[1]}.
+            </span>
             {profile.locationIcon && (
               <span className="hidden sm:inline-flex sm:items-center sm:gap-1.5">
                 {profile.location.split(", ")[1]}
@@ -57,10 +58,7 @@ export function HomeHero() {
           className="min-w-[8.25rem] rounded-full h-8 bg-secondary text-secondary-foreground hover:bg-secondary/90"
         >
           <a href={`mailto:${links.email}`}>
-            <Hotkey
-              shortcutKey={links.hotkeys.email}
-              variant="secondary"
-            />
+            <Hotkey shortcutKey={links.hotkeys.email} variant="secondary" />
             Send an email
           </a>
         </Button>

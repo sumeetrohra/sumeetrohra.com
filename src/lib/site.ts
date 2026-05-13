@@ -48,6 +48,7 @@ export const site: SiteConfig = siteData as SiteConfig;
 export const iconMap: Record<string, string> = {
   npm: "/icons/huge/icon-npm.svg",
   "npm-social": "/icons/huge/icon-npm-social.svg",
+  outmarket: "/logos/experience/logo-outmarket-ai.png",
   kognitos: "/logos/experience/logo-kognitos.png",
   alchemy: "/logos/experience/logo-alchemy.png",
   flextrade: "/logos/experience/logo-flextrade.png",
